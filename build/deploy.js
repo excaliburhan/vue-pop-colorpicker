@@ -8,4 +8,4 @@ ghpages.publish(path.join(__dirname, '../demo-dist'), err => {
   } else {
     console.log(chalk.cyan('  Demo page has published to github.\n'))
   }
-}
+})
