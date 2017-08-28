@@ -1,0 +1,7 @@
+.DS_store
+node_modules
+coverage
+demo-dist
+*.log
+.vscode
+.idea
