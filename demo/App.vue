@@ -13,7 +13,7 @@
     <div class="app-item">
       <h2>其他种类</h2>
       <color-picker class="app-comp" type="sketch" v-model="color2" @change="onChange"></color-picker>
-      <pre class="app-item__code"><code class="html">{{ code1 }}</code></pre>
+      <pre class="app-item__code"><code class="html">{{ code2 }}</code></pre>
     </div>
     <div class="app-item">
       <h2>参数</h2>
