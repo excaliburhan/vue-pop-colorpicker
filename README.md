@@ -18,7 +18,7 @@ import VueColorpicker from 'vue-pop-colorpicker'
 
 new Vue({
   components: {
-    'color-picker': Photoshop
+    'color-picker': VueColorpicker
   },
   data () {
     return {
