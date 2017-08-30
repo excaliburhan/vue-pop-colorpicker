@@ -18,6 +18,7 @@ import VueColorpicker from 'vue-pop-colorpicker'
 Vue.use(VueColorpicker)
 ```
 
+
 ### 局部组件
 
 ```
