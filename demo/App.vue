@@ -66,7 +66,7 @@
 </template>
 
 <script>
-import ColorPicker from '@/vue-colorpicker'
+import { ColorPicker } from '@/vue-colorpicker'
 
 export default {
   components: { ColorPicker },

@@ -11,10 +11,17 @@
 
 ## 使用
 
-### ES6
+### 全局组件
 
 ```
 import VueColorpicker from 'vue-pop-colorpicker'
+Vue.use(VueColorpicker)
+```
+
+### 局部组件
+
+```
+import { VueColorpicker } from 'vue-pop-colorpicker'
 
 new Vue({
   components: {
