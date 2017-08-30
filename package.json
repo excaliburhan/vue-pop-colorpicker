@@ -1,6 +1,6 @@
 {
   "name": "vue-pop-colorpicker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vue colorpicker component",
   "license": "MIT",
   "main": "dist/vue-colorpicker.min.js",
