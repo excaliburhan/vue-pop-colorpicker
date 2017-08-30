@@ -1,12 +1,13 @@
 {
   "name": "vue-pop-colorpicker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A vue colorpicker component",
   "license": "MIT",
   "main": "dist/vue-colorpicker.min.js",
   "repository": "git@github.com:excaliburhan/vue-pop-colorpicker.git",
   "author": "xiaoping <edwardhjp@gmail.com>",
   "scripts": {
+    "prepare": "npm run build",
     "dev": "node build/dev-server.js",
     "lint": "eslint --ext .js,.vue src",
     "demo": "node build/build.js",

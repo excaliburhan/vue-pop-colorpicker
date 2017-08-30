@@ -7896,6 +7896,7 @@ exports.default = {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.VueColorpicker = undefined;
 
 var _vueColorpicker = __webpack_require__(2);
 
@@ -7903,10 +7904,17 @@ var _vueColorpicker2 = _interopRequireDefault(_vueColorpicker);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = _vueColorpicker2.default;
+var install = function install(Vue) {
+  Vue.component('vue-colorpicker', _vueColorpicker2.default);
+};
+
+exports.default = {
+  install: install
+};
+exports.VueColorpicker = _vueColorpicker2.default;
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.component('vue-colorpicker', _vueColorpicker2.default);
+  install(window.Vue);
 }
 
 /***/ }),
